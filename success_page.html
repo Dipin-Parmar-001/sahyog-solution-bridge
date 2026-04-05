@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+                  "tertiary-fixed": "#72eff5",
+                  "secondary-fixed-dim": "#00efce",
+                  "on-secondary": "#c2ffef",
+                  "inverse-surface": "#0b0f10",
+                  "surface-dim": "#d0d5d8",
+                  "on-background": "#2c2f31",
+                  "tertiary": "#00666a",
+                  "on-primary-fixed": "#000000",
+                  "surface-variant": "#d9dde0",
+                  "surface-container": "#e5e9eb",
+                  "surface-bright": "#f5f7f9",
+                  "background": "#f5f7f9",
+                  "surface-tint": "#0050d5",
+                  "surface-container-highest": "#d9dde0",
+                  "surface": "#f5f7f9",
+                  "on-primary-fixed-variant": "#00266f",
+                  "on-secondary-fixed": "#00483d",
+                  "primary-fixed-dim": "#668eff",
+                  "secondary-dim": "#005a4d",
+                  "on-tertiary-fixed-variant": "#006266",
+                  "primary-container": "#7b9cff",
+                  "tertiary-fixed-dim": "#63e1e7",
+                  "error-container": "#fb5151",
+                  "on-error-container": "#570008",
+                  "inverse-primary": "#618bff",
+                  "on-surface": "#2c2f31",
+                  "outline-variant": "#abadaf",
+                  "on-tertiary-container": "#00585b",
+                  "secondary-container": "#26fedc",
+                  "surface-container-lowest": "#ffffff",
+                  "on-error": "#ffefee",
+                  "on-tertiary-fixed": "#004346",
+                  "primary": "#0050d5",
+                  "on-primary-container": "#001d5b",
+                  "tertiary-fixed": "#72eff5",
+                  "primary-fixed": "#7b9cff",
+                  "on-surface-variant": "#595c5e",
+                  "error-dim": "#9f0519",
+                  "on-secondary-fixed-variant": "#006859",
+                  "surface-container-high": "#dfe3e6",
+                  "error": "#b31b25",
+                  "on-primary": "#f1f2ff",
+                  "outline": "#747779",
+                  "surface-container-low": "#eef1f3",
+                  "primary-dim": "#0045bc",
+                  "tertiary-dim": "#00595c",
+                  "inverse-on-surface": "#9a9d9f",
+                  "on-tertiary": "#c7fcff",
+                  "secondary-fixed": "#26fedc",
+                  "secondary": "#006859",
+                  "on-secondary-container": "#005d4f"
+          },
+          "borderRadius": {
+                  "DEFAULT": "1rem",
+                  "lg": "2rem",
+                  "xl": "3rem",
+                  "full": "9999px"
+          },
+          "fontFamily": {
+                  "headline": ["Plus Jakarta Sans"],
+                  "body": ["Inter"],
+                  "label": ["Inter"]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .headline-font { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .signature-gradient { background: linear-gradient(135deg, #0050d5 0%, #7b9cff 100%); }
+    .mint-gradient { background: linear-gradient(135deg, #006859 0%, #26fedc 100%); }
+    .glass-effect { backdrop-filter: blur(16px); background-color: rgba(255, 255, 255, 0.7); }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      line-height: 1;
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen flex flex-col">
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold tracking-tight text-blue-600 dark:text-blue-400 headline-font">
+        Sahyog Solution Bridge
+      </div>
+<div class="hidden md:flex items-center gap-8 font-['Plus_Jakarta_Sans'] font-semibold">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="../landing_view_hinglish_updated_header/code.html">Home</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="../landing_view_hinglish_updated_header/code.html#vision">How it Works</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="../landing_view_hinglish_updated_header/code.html#community">Community</a>
+<a href="step1.html" class="signature-gradient text-on-primary px-6 py-2.5 rounded-full font-bold transition-all hover:opacity-90 scale-95 active:opacity-80 inline-block">
+          Submit Idea
+        </a>
+</div>
+</div>
+</nav>
+<main class="flex-grow flex items-center justify-center pt-24 pb-12 px-6">
+<div class="max-w-4xl w-full relative">
+<div class="absolute -top-24 -left-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-12 -right-12 w-72 h-72 bg-secondary-container/20 rounded-full blur-3xl"></div>
+<div class="relative bg-surface-container-lowest rounded-xl p-8 md:p-16 text-center shadow-[0_20px_40px_rgba(0,80,213,0.08)]">
+<div class="mb-10 inline-flex items-center justify-center">
+<div class="relative">
+<div class="w-32 h-32 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container text-6xl" style="font-variation-settings: 'FILL' 1;">
+                celebration
+              </span>
+</div>
+<div class="absolute -top-2 -right-2 w-12 h-12 rounded-full signature-gradient flex items-center justify-center border-4 border-surface-container-lowest">
+<span class="material-symbols-outlined text-white text-2xl">
+                check_circle
+              </span>
+</div>
+</div>
+</div>
+<h1 class="headline-font text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-on-surface mb-6">
+          Awesome! Aapka idea <span class="text-primary">Parmar Dipin tak pahunch gaya hai.</span>
+</h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-12">
+          Thank you for sharing. Hum har idea ko review karenge taaki sahi tech solution bana sakein.
+        </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+<div class="bg-surface-container-low p-6 rounded-lg text-left">
+<span class="material-symbols-outlined text-primary mb-3">auto_awesome</span>
+<h3 class="font-bold headline-font text-on-surface">AI Review</h3>
+<p class="text-sm text-on-surface-variant">Our models analyze technical feasibility.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg text-left">
+<span class="material-symbols-outlined text-secondary mb-3">groups</span>
+<h3 class="font-bold headline-font text-on-surface">Community Vote</h3>
+<p class="text-sm text-on-surface-variant">Top ideas go to public discussion.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg text-left">
+<span class="material-symbols-outlined text-primary-container mb-3">rocket_launch</span>
+<h3 class="font-bold headline-font text-on-surface">Incubation</h3>
+<p class="text-sm text-on-surface-variant">Selected visions get built into reality.</p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="step1.html" class="signature-gradient text-on-primary px-10 py-4 rounded-full text-lg font-bold shadow-lg hover:scale-105 transition-transform inline-flex items-center justify-center">
+            Ek aur idea share karein
+          </a>
+<a href="index.html" class="bg-surface-container-high text-on-surface px-10 py-4 rounded-full text-lg font-bold hover:bg-surface-container-highest transition-colors inline-flex items-center justify-center">
+            Home par waapas jayein
+          </a>
+</div>
+<script>
+(function(){
+  const safeLocalStorage = {
+    get(key) {
+      try {
+        return window.localStorage.getItem(key);
+      } catch (error) {
+        console.warn('localStorage get failed:', key, error);
+        return null;
+      }
+    }
+  };
+
+  const summary = document.createElement('div');
+  summary.className = 'mt-6 text-left p-6 bg-surface-container-highest border border-outline rounded-lg';
+
+  const name = safeLocalStorage.get('lucid_name') || 'N/A';
+  const sector = safeLocalStorage.get('lucid_sector') || 'N/A';
+  const friction = safeLocalStorage.get('lucid_friction') || 'N/A';
+  const email = safeLocalStorage.get('lucid_email') || 'N/A';
+  const doneAt = safeLocalStorage.get('lucid_completed_at') || 'N/A';
+
+  summary.innerHTML = `
+    <h3 class="font-bold text-lg mb-2">Your saved submission data</h3>
+    <ul class="text-sm text-on-surface-variant space-y-1">
+      <li><strong>Name:</strong> ${name}</li>
+      <li><strong>Sector:</strong> ${sector}</li>
+      <li><strong>Key friction point:</strong> ${friction}</li>
+      <li><strong>Email:</strong> ${email}</li>
+      <li><strong>Completed on:</strong> ${doneAt}</li>
+    </ul>
+  `;
+  const container = document.querySelector('main .relative') || document.querySelector('main');
+  if (container) {
+    container.insertAdjacentElement('afterend', summary);
+  }
+})();
+</script>
+</div>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 opacity-90">
+<div class="rounded-lg overflow-hidden h-48 relative group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="abstract digital artwork of glowing blue and cyan particles swirling in a void representing data and neural networks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8Xt8MUqJ-iTOlcLbFcWNjbjlA5NKsKDEjw3HCFtomyZ9t-B5WSVEyF7_Nw68OdxZjimq5TqISHlkFB4hZb9W9N0FBQp1r6fWHCqaGPuOD4BVRaVlxpoxOJRsrmaDzY93ygvsaBisBup1H0_0cH3camM72t5qsjThpchVmRjzoGO04qN0UBWOax3StuP2mYJzFsvhFZ-9mZlL7SqN-zRETHaEOX6xO1wHKa7VvM8IhAPZ2ycUYWLWX6NvJR3dqOHCS-miX70hWVy6b"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+<div class="absolute inset-0 p-6 flex flex-col justify-end">
+<p class="text-white headline-font font-bold">Featured Concepts</p>
+<p class="text-white/80 text-sm">See what others are imagining.</p>
+</div>
+</div>
+<div class="rounded-lg overflow-hidden h-48 relative group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="diverse group of professionals collaborating around a futuristic transparent glass screen in a bright minimalist office space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHJfVleeUDngijO16KKu2rxJeHoHeCkRJeYNTrIl0CfUejwvnItSPXMJo_cbxFzwT3-gsCpgN504l6re-FPaXV5JQPGbYECXSiy78sd78iYaQI90rTVBU4gSny29iTSCwfriGhdkwQRjOczXPS7NYr_lCBefPP3nrgq5nFfzz_XlJpxoqn6X2DDcpWQmbzaMCdyUt2nL50aEPl7AFflWL-daUL44u8UlNyygzCPZvwPgL87kku8CLNTcJq-YHxdYEQzGa1BU3cp3fX"/>
+<div class="absolute inset-0 bg-secondary/20 mix-blend-multiply"></div>
+<div class="absolute inset-0 p-6 flex flex-col justify-end">
+<p class="text-white headline-font font-bold">Innovation Lab</p>
+<p class="text-white/80 text-sm">Join the development sprints.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="w-full py-12 px-8 bg-slate-50 dark:bg-slate-950">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="font-['Plus_Jakarta_Sans'] font-bold text-slate-900 dark:text-slate-100">
+        Sahyog Solution Bridge
+      </div>
+
+<div class="flex gap-6">
+<a class="text-slate-500 dark:text-slate-400 hover:text-mint-500 transition-colors duration-200" href="index.html#privacy">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-mint-500 transition-colors duration-200" href="index.html#terms">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-mint-500 transition-colors duration-200" href="index.html#mission">Our Mission</a>
+</div>
+</div>
+</footer>
+</body></html>
