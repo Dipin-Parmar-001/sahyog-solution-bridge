@@ -83,14 +83,10 @@ This platform is that channel.
 
 ```
 sahyog-solution-bridge/
-├── index.html          # Landing page
-├── step1.html          # Step 1: Name + Sector
-├── step2.html          # Step 2: Problem description
-├── step3.html          # Step 3: Confirmation
-├── dipen.jpg           # Creator photo
-├── assets/
-│   ├── css/
-│   └── js/
+├── landing_page.html          # Landing page
+├── step1.html                 # Step 1: Name + Sector
+├── step2.html                 # Step 2: Problem description
+├── step3.html                 # Step 3: Confirmation
 └── README.md
 ```
 
